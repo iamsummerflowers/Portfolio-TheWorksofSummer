@@ -1,0 +1,984 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+   html {
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
+  }
+  
+  /*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Vendor-prefixed and regular ::selection selectors cannot be combined:
+   * https://stackoverflow.com/a/16982510/7133471
+   *
+   * Customize the background color to match your design.
+   */
+  
+  ::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+  }
+  
+  ::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+  }
+  
+  /*
+   * A better looking default horizontal rule
+   */
+  
+  hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+  }
+  
+  /*
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
+  
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+	vertical-align: middle;
+  }
+  
+  /*
+   * Remove default fieldset styles.
+   */
+  
+  fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /*
+   * Allow only vertical resizing of textareas.
+   */
+  
+  textarea {
+	resize: vertical;
+  }
+  
+  /* ==========================================================================
+	 Author's custom styles
+	 ========================================================================== */
+  
+  html{
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
+  }
+  
+  
+  body{
+	background-color: darkblue;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+
+  }
+
+  header{
+
+  }
+
+  section{
+
+  }
+
+  div{
+
+  }
+
+  input{
+
+  }
+
+  a{
+
+  }
+
+  h1{
+	font-family: 'Single Day', cursive;
+	font-size: 3.5rem;
+  }
+
+  h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+  }
+
+  h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.75rem;
+  }
+
+  h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+  }
+
+  p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25;
+  }
+
+/**COLORS
+  D7263D lipstickred
+  F46036 sanguine
+  2E294E aubergine
+  1B998B abyss green
+  C5D86D celadon green
+**/
+
+
+
+/***HEADER & NAVIGATION***/
+	header{
+		background-color: #C5D86D;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 100%;
+	}
+
+	header div{
+		background-color: none;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 100%;
+	}
+
+	.logo-title{
+		display: flex;
+		justify-content: space-evenly;
+		flex-flow: row wrap;
+		align-items: center;
+		margin: 10px 0 10px 0;
+	}
+
+	.logo-title a{
+		text-decoration: none;
+		color: 
+	}
+
+	.logo-title a:hover{
+		color:#F46036;
+	}
+
+	.logo-title i{
+		font-size: 3rem;
+		margin: 0 auto;
+	}
+
+
+	header h1{
+		background-color: none;
+		margin: 0 auto;
+
+	}
+
+	/***nav***/
+	nav{
+		background-color: #F46036;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		width: 100%;
+		margin: 0 0 5px 0px;
+		font-size: 1.25rem;
+
+	}
+
+	nav ul{
+		background-color: #F46036;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		display: flex;
+
+	}
+
+	nav ul li{
+		background-color: #F46036;
+		width:100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		
+
+	}
+
+	nav ul li a{
+		background-color: #F46036;
+		text-decoration: none;
+		color: white;
+		width: 100%;
+		text-align: center;
+	}
+
+	nav ul li a:hover{
+		background-color: #2E294E;
+		text-decoration: none;
+		color: white;
+		width: 100%;
+		text-align: center;
+	}
+
+/***WELCOME LANDING AREA***/
+	
+	.impact-welcome {
+		background-color: none;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		background-image: url(../img/girlsworkingtogether.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 350px;
+		width: 100%;
+	}
+
+	.impact-welcome div{
+		background-color: rgb(46, 41, 78, 0.7);
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 90%;
+
+	}
+
+	.impact-welcome div h2{
+		background-color: none;
+		color: white;
+		margin: 0 auto;;
+		text-align: center;
+		width: 100%;
+		padding: 15px;
+	}
+  
+/***WANT TO JOIN***/
+
+	.join-us{
+		background-color: #2E294E;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 100%;
+	}
+
+	.join-us-blurb{
+		background-color: none;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 100%;
+	}
+
+	.join-us-blurb h3{
+		background-color: none;
+		color: white;
+		padding: 0 0 0 15px;
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	.join-us-blurb p{
+		background-color: #F46036;
+		color: white;
+		padding: 10px 0 10px 10px;
+		font-weight: bold;
+		width: 90%;
+		text-align: left;
+
+	}
+
+	.find-out-more{
+		background-color: #2E294E;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 100%;
+	}
+
+	.find-out-more h3{
+		background-color: none;
+		color: white;
+		margin: 0 auto;
+		padding: 0 0 10px 15px;
+		width: 100%;
+	}
+
+	.find-out-more input{
+		background-color: white;
+		width: 90%;
+		text-align: center;
+		border: none;
+		margin: 0 0 10px 0;
+		align-items: center;
+		justify-content: left;
+		height: 30px;
+	}
+
+	input{
+		text-align: center;
+	}
+
+	#email-input{
+		text-align: left;
+		color: gray;
+	}
+
+	#button{
+		background-color: #F46036;
+		color: white;
+		text-align: center;
+	}
+
+	#button:hover{
+		background-color: #C5D86D;
+		color: white;
+	}
+
+/***WHAT WE OFFER***/
+
+	.impact-programs{
+		background-image: url(../img/kidsplaying.jpg);
+		background-position: center;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 100%;
+	}
+
+	.impact-programs h3{
+		background-color: #C5D86D;
+		width: 100%;
+		color: white;
+		padding: 15px;
+		text-align: left;
+		margin: 0;
+	}
+
+	.programs-container{
+		background-color: rgb(46, 41, 78, 0.7);
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+	}
+
+	.program{
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 100%;
+	
+	}
+
+	.program i{
+		background-color: none;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		font-size: 3.5rem;
+		color: white;
+		padding: 10px;
+	}
+
+	.program p{
+		color: white;
+		padding: 16px;
+		text-align: center;
+		margin: 0;
+	}
+
+	.program a{
+		text-decoration: none;
+		color: white;
+		width: 100%;
+		text-align: center;
+	}
+
+	.program i:hover{
+		background-color: none;
+		text-decoration: none;
+		color: #C5D86D;
+		text-align: center;
+	}
+
+/***CONCLUDING LANDING AREA***/
+
+	.concluding-statement{
+		background-color: #F46036;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		color: white;
+	}
+
+	.concluding-statement div {
+		background-color: none;
+		
+	}
+
+	.concluding-statement img{
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.concluding-statement div h3{
+		background-color: #F46036;
+		margin: 5px 0 5px 0;
+		text-align: left;
+		padding: 5px;
+	}
+
+	.concluding-statement div h4{
+		background-color: #F46036;
+		margin: 0 auto;
+		text-align: left;
+		padding: 5px;
+	}
+
+	.concluding-statement div p{
+		background-color: #F46036;
+		margin: 0 auto;
+		text-align: justify;
+		padding: 5px 15px 5px 15px;
+	}
+
+	.concluding-statement div p span{
+		font-weight: bold;
+	}
+
+/***FOOTER***/
+
+	footer{
+		background-color: #C5D86D;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+	}
+
+	footer div{
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		margin: 5px;
+	}
+
+	footer h3{
+		background-color: none;
+		width: 100%;
+		text-align: center;
+		margin: 5px;
+	}
+
+	footer p{
+		background-color: none;
+		width: 100%;
+		text-align: center;
+		color: white;
+		font-weight: bold;
+		margin: 0 auto;
+	}
+
+	.socials i{
+		background-color: none;
+		font-size: 3rem;
+		color: white;
+		padding: 5px;
+	}
+
+	.socials i:hover{
+		color: #2E294E;
+	}
+
+	.copyright p{
+		margin: 10px;
+		font-size: 1rem;
+		color: black;
+	}
+
+  /* ==========================================================================
+	 Helper classes
+	 ========================================================================== */
+  
+  /*
+   * Hide visually and from screen readers
+   */
+  
+  .hidden,
+  [hidden] {
+	display: none !important;
+  }
+  
+  /*
+   * Hide only visually, but have it available for screen readers:
+   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+   *
+   * 1. For long content, line feeds are not interpreted as spaces and small width
+   *    causes content to wrap 1 word per line:
+   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+   */
+  
+  .sr-only {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	/* 1 */
+  }
+  
+  /*
+   * Extends the .sr-only class to allow the element
+   * to be focusable when navigated to via the keyboard:
+   * https://www.drupal.org/node/897638
+   */
+  
+  .sr-only.focusable:active,
+  .sr-only.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	white-space: inherit;
+	width: auto;
+  }
+  
+  /*
+   * Hide visually and from screen readers, but maintain layout
+   */
+  
+  .invisible {
+	visibility: hidden;
+  }
+  
+  /*
+   * Clearfix: contain floats
+   *
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    `contenteditable` attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that receive the `clearfix` class.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
+  
+  .clearfix::before,
+  .clearfix::after {
+	content: " ";
+	display: table;
+  }
+  
+  .clearfix::after {
+	clear: both;
+  }
+  
+  /* ==========================================================================
+	 EXAMPLE Media Queries for Responsive Design.
+	 These examples override the primary ('mobile first') styles.
+	 Modify as content requires.
+	 ========================================================================== */
+  
+  @media only screen and (min-width: 768px) {
+
+	h1{
+		font-family: 'Single Day', cursive;
+		font-size: 4rem;
+	  }
+	
+	  h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 2.25rem;
+	  }
+	
+	  h3{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.75rem;
+	  }
+	
+	  h4{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.6rem;
+	  }
+	
+	  p{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.25rem;
+	  }
+
+
+	/***HEADER & NAVIGATION***/
+
+	  .logo-title i{
+		font-size: 4rem;
+		margin: 0 auto;
+		}
+
+		nav{
+			font-size: 1.5rem;
+		}
+
+	/***WELCOME LANDING AREA***/
+
+	.impact-welcome {
+		height: 500px;
+	}
+
+	/***WANT TO JOIN***/
+	.find-out-more{
+		margin-bottom: 10px;
+	}
+	.find-out-more input{
+		font-size: 1.5rem;
+		margin: 5px;
+	}
+
+	#email-input{
+		width: 50%;
+	}
+
+	#button{
+		width: 40%;
+	}
+
+	/***WHAT WE OFFER***/
+	.impact-programs h3{
+		margin: 0 auto;
+	}
+
+	.program{
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 33.33%;
+		margin: 0;
+		padding: 0;
+	}
+
+
+
+	.program i{
+		font-size: 3.75rem;
+	}
+
+
+	/***CONCLUDING LANDING AREA***/
+
+	.concluding-statement img{
+		margin: 0;
+		width: 100%;
+		height: 50%;
+	}
+
+	/***FOOTER***/
+	
+	footer{
+		width: 100%;
+	} 
+
+	footer div{
+		width: 100%;
+	}
+
+	.copyright p{
+		margin: 10px;
+		font-size: 1rem;
+	}
+  
+  @media only screen and (min-width: 1200px) {
+	h1{
+		font-family: 'Single Day', cursive;
+		font-size: 4.25rem;
+	  }
+	
+	  h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 2.5rem;
+	  }
+	
+	  h3{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 2rem;
+	  }
+	
+	  h4{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.75rem;
+	  }
+	
+	  p{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.35rem;
+	  }
+
+
+	/***HEADER & NAVIGATION***/
+
+	.logo-title i{
+		font-size: 4.25rem;
+		margin: 0 auto;
+		}
+
+		nav{
+			font-size: 1.5rem;
+		}
+
+	/***WELCOME LANDING AREA***/
+	
+	.impact-welcome {
+		width:100%;
+		height: 700px;
+	}
+
+	.impact-welcome div {
+		width: 75%;
+	}
+
+	.impact-welcome div h2{
+		font-size: 4rem;
+		width: 50%;
+	}
+
+	/***WANT TO JOIN***/
+	
+	.join-us-blurb p{
+		width: 90%;
+		font-size: 1.5rem;
+	}
+	
+	.find-out-more{
+		margin-bottom: 15px;
+		display: flex;
+		justify-content: center;
+
+	}
+	.find-out-more input{
+		font-size: 1.75rem;
+		width: 20%;
+		display: flex;
+		justify-content: left;
+		margin: 5px;
+	}
+
+	#email-input{
+		width: 30%;
+	}
+
+	#button{
+		width: 15%;
+	}
+
+	/***WHAT WE OFFER***/
+	
+	.impact-programs{
+		height: 100%;
+	}
+	
+	.impact-programs h3{
+		margin: 0 auto;
+		font-size: 2.5rem;
+	}
+
+	.program{
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		width: 33.33%;
+		margin:0;
+		padding: 10px 0 10px 0;
+	}
+
+	.program p{
+		margin: 20px;
+		text-align: center;
+		width:40%;
+	}
+
+
+
+	.program i{
+		font-size: 4.5rem;
+	}
+
+
+	/***CONCLUDING LANDING AREA***/
+
+	.concluding-statement img{
+		margin: 0;
+		width: 75%;
+		height: auto;
+	}
+
+	.concluding-statement div h3{
+	 font-size: 2.75rem;
+	}
+
+	.concluding-statement div p{
+		background-color: #F46036;
+		margin: 0 auto;
+		text-align: justify;
+		padding: 5px 0 10px 0;
+		width: 70%;
+	}
+
+	/***FOOTER***/
+
+	footer{
+		padding: 50px;
+	}
+
+	footer h3{
+		font-size: 3rem;
+	}
+
+	
+	footer p{
+		font-size: 1.35rem;
+	}
+
+	footer div{
+		width:40%;
+	}
+
+	.copyright p {
+		background-color:none;
+		color: black;
+		margin: 20px 0 10px 0;
+		width: 100%;
+		font-size: 1rem;
+	}
+
+  
+  
+  /* ==========================================================================
+	 Print styles.
+	 Inlined to avoid the additional HTTP request:
+	 https://www.phpied.com/delay-loading-your-print-css/
+	 ========================================================================== */
+  
+  @media print {
+	*,
+	*::before,
+	*::after {
+	  background: #fff !important;
+	  color: #000 !important;
+	  /* Black prints faster */
+	  box-shadow: none !important;
+	  text-shadow: none !important;
+	}
+  
+	a,
+	a:visited {
+	  text-decoration: underline;
+	}
+  
+	a[href]::after {
+	  content: " (" attr(href) ")";
+	}
+  
+	abbr[title]::after {
+	  content: " (" attr(title) ")";
+	}
+  
+	/*
+	 * Don't show links that are fragment identifiers,
+	 * or use the `javascript:` pseudo protocol
+	 */
+	a[href^="#"]::after,
+	a[href^="javascript:"]::after {
+	  content: "";
+	}
+  
+	pre {
+	  white-space: pre-wrap !important;
+	}
+  
+	pre,
+	blockquote {
+	  border: 1px solid #999;
+	  page-break-inside: avoid;
+	}
+  
+	/*
+	 * Printing Tables:
+	 * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+	 */
+	thead {
+	  display: table-header-group;
+	}
+  
+	tr,
+	img {
+	  page-break-inside: avoid;
+	}
+  
+	p,
+	h2,
+	h3 {
+	  orphans: 3;
+	  widows: 3;
+	}
+  
+	h2,
+	h3 {
+	  page-break-after: avoid;
+	}
+  }
+  
+  
